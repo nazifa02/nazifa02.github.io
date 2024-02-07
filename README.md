@@ -1,2 +1,2 @@
 # nazifa02.github.io
-This is my personal website
+This is my website
