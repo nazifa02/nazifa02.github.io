@@ -26,14 +26,26 @@
 						</div>
 
 					<!-- Nav -->
+
+					#nav ul {
+						text-align: left;
+						padding: 0; /* Removes padding that might be present */
+						margin: 0; /* Removes margin that might be present */
+					}
+					
+					#nav li {
+						display: inline; /* or 'inline-block' if you want to keep block properties */
+						margin-right: 10px; /* Adjust spacing between menu items as needed */
+					}
+					
 						<nav id="nav">
 							<ul>
-								<li><a href="#about" id="about-link"><span class="icon solid fa-user">About</span></a></li>
-								<li><a href="#research" id="top-link"><span class="icon solid fa-home">Research</span></a></li>
-								<li><a href="#publication" id="portfolio-link"><span class="icon solid fa-th">Publications</span></a></li>
-								<li><a href="#experience" id="about-link"><span class="icon solid fa-user">Experience</span></a></li>
-								<li><a href="#achievement" id="about-link"><span class="icon solid fa-user">Achievement</span></a></li>
-								<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
+								<li><a href="#about" id="about-link"><span class="icon solid fa-user"></span>About</a></li>
+                				<li><a href="#research" id="research-link"><span class="icon solid fa-home"></span>Research</a></li>
+                				<li><a href="#publication" id="publication-link"><span class="icon solid fa-th"></span>Publications</a></li>
+                				<li><a href="#experience" id="experience-link"><span class="icon solid fa-user"></span>Experience</a></li>
+                				<li><a href="#achievement" id="achievement-link"><span class="icon solid fa-trophy"></span>Achievement</a></li>
+                				<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope"></span>Contact</a></li>
 							</ul>
 						</nav>
 
