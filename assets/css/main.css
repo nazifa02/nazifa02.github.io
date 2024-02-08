@@ -2246,21 +2246,33 @@ input, select, textarea {
 				background-position: center center;
 			}
 
+			#main > section.top {
+				background-color: #E9ECE6;
+				background-image: url('images/sky.jpg'); 
+			}
+
 			#main > section.one {
-				background-color: #192a27;
-				background-image: url('../images/sky.jpg'); 
+				background-color: #E9ECE6;
 			}
 
 			#main > section.two {
-				background-color: #f5fafa;
+				background-color: #E9ECE6;
 			}
 
 			#main > section.three {
-				background-color: #ecf1f1;
+				background-color: #E9ECE6;
 			}
 
 			#main > section.four {
-				background-color: #e8edec;
+				background-color: #E9ECE6;
+			}
+
+			#main > section.five {
+				background-color: #E9ECE6;
+			}
+
+			#main > section.six {
+				background-color: #E9ECE6;
 			}
 
 /* Wide */
